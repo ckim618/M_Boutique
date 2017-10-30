@@ -1,0 +1,235 @@
+body {
+    width: 1000px;
+}
+/**********************************
+Navigation Styles
+ *********************************/
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 72px;
+    width: 1000px;
+    background-color: #fffabe;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #515151;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.logo {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.imgContainer {
+    width: 156px;
+}
+
+.welcomeImg {
+    width: 1000px;
+    height: 400px;
+}
+
+/**********************************
+Main Section Styles
+ *********************************/
+.mainSectionHeaders {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+.coverImg {
+    margin-bottom: 2%;
+}
+.mainParagraphs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+.flavorContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.sampleFlavors {
+    width: 126px;
+    height: 140px;
+    background-color: #fffabe;
+}
+.mainSection {
+    display: inline-flex;
+}
+.sectionDescription {
+    display: inline-block;
+    width: 78%;
+}
+.imgContainer {
+    display: inline-block;
+    width: 20%;
+    margin-right: 10px;
+}
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+}
+.bottomSample {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coconutSample {
+    width: 126px;
+    height: 33px;
+    background-color: #824603;
+}
+.flavorText{
+    color: #fff;
+}
+.vanillaSample {
+    background-color: #d55277;
+}
+.lemonSample {
+    background-color: #a2304e;
+}
+.almondSample {
+    background-color: #c39005;
+}
+
+/**********************************
+Footer Section Styles
+ *********************************/
+.footer {
+    margin-top: 50px;
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+}
+.footerP {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+.footerTop {
+    display: inline-flex;
+}
+#mailIcon {
+    width: 17px;
+    height: 15px;
+    margin: 12px 10px 0 0;
+}
+#phoneIcon {
+    width: 17px;
+    height: 15px;
+    margin: 12px 10px 0 0;
+}
+#facebookIcon {
+    width: 17px;
+    height: 15px;
+    margin: 12px 10px 0 10px;
+}
+#twitterIcon {
+    width: 17px;
+    height: 15px;
+    margin: 12px 10px 0 0;
+}
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+#copyrightContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/**********************************
+Our Macarons Main Section Styles
+ *********************************/
+.ourMacaronContainer {
+    position: relative;
+}
+.ulDiv {
+    position: absolute;
+}
+.ulList {
+    line-height: 150%;
+}
+
+/**********************************
+Gifts & Parties Section Styles
+ *********************************/
+.giftSection1 {
+    position: absolute;
+    bottom: 12%;
+}
+
+/**********************************
+Contact Section Styles
+ *********************************/
+
+.contactThirds {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.contactEmail {
+    color: #df5277;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.contactInput {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    border: none;
+    border-color: transparent;
+    background-color: #f5f5f5;
+    width: 310px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.contactInputMesssage {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    border: none;
+    border-color: transparent;
+    background-color: #f5f5f5;
+    width: 310px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.contactSection2 {
+    width: 310px;
+}
+.inputSubmitContainer {
+    margin-left: 50%;
+}
+.inputSubmit {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    border: none;
+    border-color: transparent;
+    background-color: #f5f5f5;
+    width: 155px;
+    height: 35px;
+}
+.contactSection3 {
+    margin-top: 8%;
+    width: 187px;
+    height: 240px;
+}

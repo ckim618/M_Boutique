@@ -1,9 +1,21 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+} from 'react-router-dom';
+import Nav from './nav';
+import Footer from './footer';import MainSection from './mainSection';
 
-const App = () => (
-    <div>
-        <h1>MBoutique Home Page - Coming Soon!</h1>
-    </div>
+
+
+
+
+const Home = () => (
+    <Router>
+        <div>
+            <Nav/>
+            <Footer/>
+        </div>
+    </Router>
 );
 
-export default App;
+export default Home;
