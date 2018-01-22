@@ -1,6 +1,5 @@
 import React from 'react';
 import giftParties from '../assets/images/gifts-parties-image.png';
-import macaronTower from '../assets/images/gifts-parties-background.png';
 export default () => (
     <div>
         <img className="coverImg" src={giftParties}/>
@@ -33,8 +32,6 @@ export default () => (
                 </ul>
             </div>
         </div>
-        <div className="giftSection2">
-            <img src={macaronTower}/>
-        </div>
+        <div className="giftSection2"></div>
     </div>
 );

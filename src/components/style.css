@@ -82,6 +82,14 @@ Main Section Styles
     font-size: 12px;
     color: #6a6969;
 }
+
+.date, .info {
+    padding-left: 8px;
+}
+
+.imgSmall {
+    padding-right: 8px;
+}
 .bottomSample {
     display: flex;
     align-items: center;
@@ -172,7 +180,12 @@ Gifts & Parties Section Styles
  *********************************/
 .giftSection1 {
     position: absolute;
-    bottom: 12%;
+    bottom: -10%;
+}
+.giftSection2 {
+    background-image: url("../assets/images/gifts-parties-background.png");
+    background-repeat: no-repeat;
+    height: 65vh;
 }
 
 /**********************************

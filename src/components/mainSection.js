@@ -41,11 +41,11 @@ export default () => (
                   <div className="sampleScetion1">
                       <div className="bottomSample">
                           <p className="info">chocolate</p>
-                          <img src={chocolate}/>
+                          <img className="imgSmall" src={chocolate}/>
                       </div>
                       <div className="bottomSample coconutSample">
                           <p className="info flavorText">coconut</p>
-                          <img src={coconut}/>
+                          <img className="imgSmall" src={coconut}/>
                       </div>
                   </div>
               </div>
@@ -54,11 +54,11 @@ export default () => (
                   <p className="info">14:00-15:00</p>
                   <div className="bottomSample">
                       <p className="info">violet cassis</p>
-                      <img src={violetCassis}/>
+                      <img className="imgSmall" src={violetCassis}/>
                   </div>
                   <div className="bottomSample">
                       <p className="info">green tea</p>
-                      <img src={greenTea}/>
+                      <img className="imgSmall" src={greenTea}/>
                   </div>
               </div>
               <div className="sampleFlavors">
@@ -66,11 +66,11 @@ export default () => (
                   <p className="info">09:00-10:00</p>
                   <div className="bottomSample">
                     <p className="info">passion fruit</p>
-                    <img src={passionFruit}/>
+                    <img className="imgSmall" src={passionFruit}/>
                   </div>
                   <div className="bottomSample vanillaSample">
                       <p className="info flavorText">vanilla</p>
-                      <img src={vanilla}/>
+                      <img className="imgSmall" src={vanilla}/>
                   </div>
               </div>
               <div className="sampleFlavors">
@@ -78,11 +78,11 @@ export default () => (
                   <p className="info">18:00-19:00</p>
                   <div className="bottomSample">
                       <p className="info">coffee</p>
-                      <img src={coffee}/>
+                      <img className="imgSmall" src={coffee}/>
                   </div>
                   <div className="bottomSample">
                       <p className="info">pistachio</p>
-                      <img src={pistachio}/>
+                      <img className="imgSmall" src={pistachio}/>
                   </div>
               </div>
               <div className="sampleFlavors">
@@ -90,11 +90,11 @@ export default () => (
                   <p className="info">11:00-12:00</p>
                   <div className="bottomSample">
                       <p className="info">raspberry</p>
-                      <img src={raspberry}/>
+                      <img className="imgSmall" src={raspberry}/>
                   </div>
                   <div className="bottomSample lemonSample">
                       <p className="info flavorText">lemon</p>
-                      <img src={lemon}/>
+                      <img className="imgSmall" src={lemon}/>
                   </div>
               </div>
               <div className="sampleFlavors">
@@ -102,11 +102,11 @@ export default () => (
                   <p className="info">13:00-14:00</p>
                   <div className="bottomSample">
                       <p className="info">rose</p>
-                      <img src={rose}/>
+                      <img className="imgSmall" src={rose}/>
                   </div>
                   <div className="bottomSample">
                       <p className="info">tiffany blue</p>
-                      <img src={tiffanyBlue}/>
+                      <img className="imgSmall" src={tiffanyBlue}/>
                   </div>
               </div>
               <div className="sampleFlavors">
@@ -114,11 +114,11 @@ export default () => (
                   <p className="info">10:00-11:00</p>
                   <div className="bottomSample ">
                       <p className="info">caramel</p>
-                      <img src={caramel}/>
+                      <img className="imgSmall" src={caramel}/>
                   </div>
                   <div className="bottomSample almondSample">
                       <p className="info flavorText">almond</p>
-                      <img src={almond}/>
+                      <img className="imgSmall" src={almond}/>
                   </div>
               </div>
           </div>
