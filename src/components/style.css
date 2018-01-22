@@ -1,5 +1,6 @@
 body {
     width: 1000px;
+    margin: 0 auto;
 }
 /**********************************
 Navigation Styles
@@ -170,6 +171,7 @@ Our Macarons Main Section Styles
 }
 .ulDiv {
     position: absolute;
+    padding: 0 10px;
 }
 .ulList {
     line-height: 150%;
