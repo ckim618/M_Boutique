@@ -4,5 +4,5 @@ Technologies: React, React-Routing, JSX
 
 #### Screen Shot
 
-![alt text](http://ckimcode.life/assets/imgages/mboutique.jpeg? "Mboutique")
+![alt text](https://github.com/ckim618/M_Boutique/blob/master/src/assets/images/mboutique.jpeg? "Mboutique")
 
