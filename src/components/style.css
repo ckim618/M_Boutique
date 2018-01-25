@@ -182,12 +182,12 @@ Gifts & Parties Section Styles
  *********************************/
 .giftSection1 {
     position: absolute;
-    bottom: -10%;
+    bottom: -20%;
 }
 .giftSection2 {
     background-image: url("../assets/images/gifts-parties-background.png");
     background-repeat: no-repeat;
-    height: 65vh;
+    height: 75vh;
 }
 
 /**********************************
